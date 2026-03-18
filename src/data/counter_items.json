@@ -341,8 +341,13 @@
     "name": "Debuff Remover",
     "category": "active",
     "effect": "Purges all non-ultimate negative effects currently applied to you. Upgraded version of Debuff Reducer.",
-    "when_to_buy": "Priority purchase against teams running multiple debuff-applying items or abilities (e.g., Slowing Hex, Knockdown).",
-    "countered_heroes": [],
+    "when_to_buy": "Priority purchase against teams running multiple debuff-applying items or abilities (e.g., Slowing Hex, Silence Wave)",
+    "countered_heroes": [
+      "bebop",
+      "infernus",
+      "kelvin",
+      "vindicta"
+    ],
     "notes": "Cleanses all the active-item debuffs listed in this section.",
     "cost": 3200,
     "item_slot_type": "vitality",
@@ -351,6 +356,7 @@
     "tags": [
       "anti-cc",
       "anti-debuff",
+      "anti-slow",
       "cleanse",
       "defensive",
       "purge"
