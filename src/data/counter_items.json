@@ -169,28 +169,6 @@
     "data_name": "Counterspell"
   },
   {
-    "name": "Rebuttal",
-    "category": "active",
-    "effect": "On a successful parry against an enemy hero, you heal, return the damage, and gain a 30% bonus damage buff for 6 seconds.",
-    "when_to_buy": "When you are confident in your parry timing. A landed parry often leads directly to a kill.",
-    "countered_heroes": [
-      "viscous"
-    ],
-    "notes": "You can parry Viscous's Puddle Punch, returning the damage back to Viscous.",
-    "cost": 800,
-    "item_slot_type": "vitality",
-    "item_tier": 1,
-    "shop_image_webp": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/vitality/rebuttal.webp",
-    "tags": [
-      "parry",
-      "damage",
-      "heal",
-      "aggressive",
-      "early game"
-    ],
-    "data_name": "Rebuttal"
-  },
-  {
     "name": "Knockdown",
     "category": "active",
     "effect": "Drops an anvil on a target, knocking them down and stunning them. Forces airborne or channeling heroes to the ground.",
@@ -528,6 +506,33 @@
     "data_name": "Crippling Headshot"
   },
   {
+    "name": "Rebuttal",
+    "category": "bonus",
+    "effect": "On a successful parry against an enemy hero, you heal, return the damage, and gain a 30% bonus damage buff for 6 seconds.",
+    "when_to_buy": "When you are confident in your parry timing. A landed parry often leads directly to a kill.",
+    "countered_heroes": [
+      "abrams",
+      "billy",
+      "calico",
+      "viscous",
+      "yamato"
+    ],
+    "notes": "You can parry Viscous's Puddle Punch, returning the damage back to Viscous.",
+    "cost": 800,
+    "item_slot_type": "vitality",
+    "item_tier": 1,
+    "shop_image_webp": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/vitality/rebuttal.webp",
+    "tags": [
+      "aggressive",
+      "anti-melee",
+      "damage",
+      "early game",
+      "heal",
+      "parry"
+    ],
+    "data_name": "Rebuttal"
+  },
+  {
     "name": "Decay",
     "category": "bonus",
     "effect": "Deals bleed damage based on the target's current health, plus a 40% healing reduction for 10 seconds.",
@@ -756,7 +761,8 @@
     "effect": "Upgraded Return Fire. Grants full bullet immunity for 5 seconds.",
     "when_to_buy": "Against heavy weapon-damage teams. Upgrade path from Return Fire.",
     "countered_heroes": [
-      "haze"
+      "haze",
+      "wraith"
     ],
     "notes": "",
     "cost": 3200,
