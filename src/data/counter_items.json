@@ -704,7 +704,8 @@
     "effect": "Cheaper alternative to Bullet Resilience. Also provides fire rate. Suitable against gun-damage heroes like Haze.",
     "when_to_buy": "Budget option against weapon/gun-damage heavy teams.",
     "countered_heroes": [
-      "haze"
+      "haze",
+      "wraith"
     ],
     "notes": "",
     "cost": 1600,
@@ -739,8 +740,8 @@
   {
     "name": "Warp Stone",
     "category": "active",
-    "effect": "Provides a quick directional teleport plus some bullet resist. Alternative escape option to Slowing Hex.",
-    "when_to_buy": "When your goal is to escape rather than lock down enemies.",
+    "effect": "Provides a quick directional teleport plus some bullet resist.",
+    "when_to_buy": "When your goal is to escape or outplay with movement.",
     "countered_heroes": [],
     "notes": "",
     "cost": 3200,
