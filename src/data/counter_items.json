@@ -61,6 +61,7 @@
     "item_tier": 2,
     "shop_image_webp": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/vitality/spirit_shielding.webp",
     "tags": [
+      "anti-burst",
       "anti-spirit",
       "barrier",
       "defensive",
@@ -119,7 +120,7 @@
   {
     "name": "Spellbreaker",
     "category": "passive",
-    "effect": "Provides high spirit resist and debuff resist.",
+    "effect": "Provides high spirit resist and debuff resist in addition to reduced spirit burst damage.",
     "when_to_buy": "Whenever you need the strongest spirit resistance available. Best-in-class for that purpose.",
     "countered_heroes": [
       "grey talon",
@@ -131,6 +132,7 @@
     "item_tier": 4,
     "shop_image_webp": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/vitality/spellbreaker.webp",
     "tags": [
+      "anti-burst",
       "anti-spirit",
       "debuff resist",
       "defensive",
@@ -146,7 +148,6 @@
     "when_to_buy": "Every game, on any hero. Widely considered the single most impactful counter item in the game.",
     "countered_heroes": [
       "bebop",
-      "calico",
       "grey talon",
       "holliday",
       "lash",
@@ -198,7 +199,7 @@
       "bebop",
       "grey talon",
       "ivy",
-      "mirage",
+      "mina",
       "mo & krill",
       "vindicta"
     ],
@@ -222,10 +223,13 @@
     "effect": "Massively reduces enemy movement speed and silences movement-based abilities and items for over 3 seconds.",
     "when_to_buy": "Nearly every game \u2014 being slowed is extremely punishing and makes targets easy to pick off.",
     "countered_heroes": [
-      "abrams",
+      "apollo",
+      "calico",
+      "grey talon",
       "ivy",
-      "mcginnis",
-      "mirage"
+      "mina",
+      "vindicta",
+      "wraith"
     ],
     "notes": "Warp Stone \u2014 provides a quick directional teleport plus some bullet resist.",
     "cost": 1600,
@@ -267,6 +271,7 @@
     "effect": "Launches a projectile forward that suppresses (silences) everyone in its path.",
     "when_to_buy": "Against ability-reliant heroes, especially those who depend on an ability at low health.",
     "countered_heroes": [
+      "apollo",
       "calico",
       "geist",
       "yamato"
@@ -289,7 +294,12 @@
     "category": "active",
     "effect": "Passively increases fire rate by 16%. On use, silences a target; 30% of all damage dealt during the silence is applied as bonus damage when the silence ends.",
     "when_to_buy": "As a point-and-click silence alternative to Silence Wave.",
-    "countered_heroes": [],
+    "countered_heroes": [
+      "apollo",
+      "calico",
+      "geist",
+      "yamato"
+    ],
     "notes": "",
     "cost": 6400,
     "item_slot_type": "spirit",
@@ -373,16 +383,14 @@
     "name": "Healbane",
     "category": "anti-heal",
     "effect": "35% healing reduction. Heals you for 275 on kills.",
-    "when_to_buy": "Early game, in any lane where the opponent heals constantly. Works on all heroes since it procs from spirit damage.",
+    "when_to_buy": "Early game, in any lane where the opponent heals constantly, or for heals in teamfights or close engagements.",
     "countered_heroes": [
       "abrams",
-      "calico",
       "geist",
       "kelvin",
       "mcginnis",
-      "mirage",
-      "shiv",
-      "viscous",
+      "paige",
+      "rem",
       "yamato"
     ],
     "notes": "",
@@ -406,14 +414,13 @@
     "when_to_buy": "Against high-HP, beefy heroes. Although it has 5% less healing reduction than Healbane, the max-health bleed makes it superior into tanks.",
     "countered_heroes": [
       "abrams",
-      "calico",
+      "billy",
       "geist",
       "kelvin",
       "mcginnis",
-      "mirage",
       "mo & krill",
-      "shiv",
-      "viscous",
+      "paige",
+      "rem",
       "yamato"
     ],
     "notes": "",
@@ -438,13 +445,11 @@
     "when_to_buy": "When an enemy hero is dealing high damage while also healing significantly.",
     "countered_heroes": [
       "abrams",
-      "calico",
       "geist",
       "kelvin",
       "mcginnis",
-      "mirage",
-      "shiv",
-      "viscous",
+      "paige",
+      "rem",
       "yamato"
     ],
     "notes": "",
@@ -469,13 +474,12 @@
     "when_to_buy": "Against heroes that primarily build spirit damage, such as Mirage. Provides double the healing reduction of Healbane with substantial damage on top.",
     "countered_heroes": [
       "abrams",
-      "calico",
       "geist",
       "kelvin",
       "mcginnis",
       "mirage",
-      "shiv",
-      "viscous",
+      "paige",
+      "rem",
       "yamato"
     ],
     "notes": "",
@@ -500,12 +504,11 @@
     "when_to_buy": "Weapon-build carries looking to shut down a fed sustain hero, particularly Viscous. The resist shred amplifies your entire team's damage.",
     "countered_heroes": [
       "abrams",
-      "calico",
       "geist",
       "kelvin",
       "mcginnis",
-      "mirage",
-      "shiv",
+      "paige",
+      "rem",
       "viscous",
       "yamato"
     ],
