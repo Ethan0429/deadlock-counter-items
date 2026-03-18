@@ -1,0 +1,771 @@
+[
+  {
+    "name": "Reactive Barrier",
+    "category": "passive",
+    "effect": "Automatically creates a barrier when you are hit by any form of crowd control.",
+    "when_to_buy": "Early in the laning phase against teams with heavy CC.",
+    "countered_heroes": [
+      "abrams",
+      "bebop",
+      "doorman"
+    ],
+    "notes": "",
+    "cost": 1600,
+    "item_slot_type": "vitality",
+    "item_tier": 2,
+    "shop_image_webp": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/vitality/reactive_barrier.webp",
+    "tags": [
+      "anti-cc",
+      "barrier",
+      "crowd control",
+      "defensive",
+      "early game",
+      "stun"
+    ],
+    "data_name": "Reactive Barrier"
+  },
+  {
+    "name": "Debuff Reducer",
+    "category": "passive",
+    "effect": "Reduces the duration of stuns, slows, and CC-applying ultimates.",
+    "when_to_buy": "When you are consistently stun-locked or stuck in crowd control during fights.",
+    "countered_heroes": [
+      "abrams",
+      "holliday",
+      "mo & krill"
+    ],
+    "notes": "Builds into Debuff Remover, a powerful active item covered in the Active Items section.",
+    "cost": 1600,
+    "item_slot_type": "vitality",
+    "item_tier": 2,
+    "shop_image_webp": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/vitality/debuff_reducer.webp",
+    "tags": [
+      "anti-cc",
+      "crowd control",
+      "debuff",
+      "defensive",
+      "slow",
+      "stun"
+    ],
+    "data_name": "Debuff Reducer"
+  },
+  {
+    "name": "Spirit Shielding",
+    "category": "passive",
+    "effect": "Significantly increases survivability against spirit damage.",
+    "when_to_buy": "Early game against double-spirit lanes or spirit-heavy team compositions.",
+    "countered_heroes": [],
+    "notes": "",
+    "cost": 1600,
+    "item_slot_type": "vitality",
+    "item_tier": 2,
+    "shop_image_webp": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/vitality/spirit_shielding.webp",
+    "tags": [
+      "anti-spirit",
+      "barrier",
+      "defensive",
+      "early game",
+      "spirit damage"
+    ],
+    "data_name": "Spirit Shielding"
+  },
+  {
+    "name": "Spirit Resilience",
+    "category": "passive",
+    "effect": "Stat-based passives that increase resistance to spirit damage or bullet damage, respectively.",
+    "when_to_buy": "Mid-to-late game, after your core damage items are online. Press Tab to check whether the enemy team deals primarily spirit or weapon damage, then buy accordingly.",
+    "countered_heroes": [
+      "haze",
+      "infernus"
+    ],
+    "notes": "",
+    "data_name": "Spirit Resilience",
+    "tags": [
+      "anti-spirit",
+      "defensive",
+      "mid-late game",
+      "resist",
+      "spirit damage"
+    ],
+    "cost": 3200,
+    "item_slot_type": "vitality",
+    "item_tier": 3,
+    "shop_image_webp": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/vitality/spirit_resilience.webp"
+  },
+  {
+    "name": "Bullet Resilience",
+    "category": "passive",
+    "effect": "Stat-based passives that increase resistance to spirit damage or bullet damage, respectively.",
+    "when_to_buy": "Mid-to-late game, after your core damage items are online. Press Tab to check whether the enemy team deals primarily spirit or weapon damage, then buy accordingly.",
+    "countered_heroes": [
+      "haze",
+      "infernus"
+    ],
+    "notes": "",
+    "data_name": "Bullet Resilience",
+    "tags": [
+      "anti-melee",
+      "anti-weapon",
+      "bullet damage",
+      "defensive",
+      "mid-late game",
+      "resist"
+    ],
+    "cost": 3200,
+    "item_slot_type": "vitality",
+    "item_tier": 3,
+    "shop_image_webp": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/vitality/bullet_resilience.webp"
+  },
+  {
+    "name": "Spellbreaker",
+    "category": "passive",
+    "effect": "Provides high spirit resist and debuff resist.",
+    "when_to_buy": "Whenever you need the strongest spirit resistance available. Best-in-class for that purpose.",
+    "countered_heroes": [
+      "grey talon",
+      "vindicta"
+    ],
+    "notes": "",
+    "cost": 6400,
+    "item_slot_type": "vitality",
+    "item_tier": 4,
+    "shop_image_webp": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/vitality/spellbreaker.webp",
+    "tags": [
+      "anti-spirit",
+      "debuff resist",
+      "defensive",
+      "late game",
+      "spirit damage"
+    ],
+    "data_name": "Spellbreaker"
+  },
+  {
+    "name": "Counter Spell",
+    "category": "active",
+    "effect": "Transforms your parry into a full ability/item deflect. On a correctly timed parry, you negate the damage and effects of the incoming enemy ability or item.",
+    "when_to_buy": "Every game, on any hero. Widely considered the single most impactful counter item in the game.",
+    "countered_heroes": [
+      "bebop",
+      "calico",
+      "grey talon",
+      "holliday",
+      "lash",
+      "pocket"
+    ],
+    "notes": "Counter Spelling Bebop's bomb prevents the bomb placement and the follow-up uppercut, and puts the bomb on cooldown. However, Bebop still gains a soul stack from the interaction, which can make him a threat later in the game.",
+    "cost": 3200,
+    "item_slot_type": "vitality",
+    "item_tier": 3,
+    "shop_image_webp": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/vitality/counterspell.webp",
+    "tags": [
+      "anti-ability",
+      "counter",
+      "deflect",
+      "every game",
+      "parry",
+      "universal"
+    ],
+    "data_name": "Counterspell"
+  },
+  {
+    "name": "Rebuttal",
+    "category": "active",
+    "effect": "On a successful parry against an enemy hero, you heal, return the damage, and gain a 30% bonus damage buff for 6 seconds.",
+    "when_to_buy": "When you are confident in your parry timing. A landed parry often leads directly to a kill.",
+    "countered_heroes": [
+      "viscous"
+    ],
+    "notes": "You can parry Viscous's Puddle Punch, returning the damage back to Viscous.",
+    "cost": 800,
+    "item_slot_type": "vitality",
+    "item_tier": 1,
+    "shop_image_webp": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/vitality/rebuttal.webp",
+    "tags": [
+      "parry",
+      "damage",
+      "heal",
+      "aggressive",
+      "early game"
+    ],
+    "data_name": "Rebuttal"
+  },
+  {
+    "name": "Knockdown",
+    "category": "active",
+    "effect": "Drops an anvil on a target, knocking them down and stunning them. Forces airborne or channeling heroes to the ground.",
+    "when_to_buy": "Against flying heroes or heroes with long-animation ultimates.",
+    "countered_heroes": [
+      "bebop",
+      "grey talon",
+      "ivy",
+      "mirage",
+      "mo & krill",
+      "vindicta"
+    ],
+    "notes": "Effective against Mo & Krill when they are burrowing \u2014 Knockdown them, then secure the kill.",
+    "cost": 3200,
+    "item_slot_type": "spirit",
+    "item_tier": 3,
+    "shop_image_webp": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/spirit/knockdown.webp",
+    "tags": [
+      "anti-air",
+      "flying",
+      "interrupt",
+      "stun",
+      "ultimate cancel"
+    ],
+    "data_name": "Knockdown"
+  },
+  {
+    "name": "Slowing Hex",
+    "category": "active",
+    "effect": "Massively reduces enemy movement speed and silences movement-based abilities and items for over 3 seconds.",
+    "when_to_buy": "Nearly every game \u2014 being slowed is extremely punishing and makes targets easy to pick off.",
+    "countered_heroes": [
+      "abrams",
+      "ivy",
+      "mcginnis",
+      "mirage"
+    ],
+    "notes": "Warp Stone \u2014 provides a quick directional teleport plus some bullet resist.",
+    "cost": 1600,
+    "item_slot_type": "spirit",
+    "item_tier": 2,
+    "shop_image_webp": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/spirit/slowing_hex.webp",
+    "tags": [
+      "anti-mobility",
+      "chase",
+      "escape",
+      "every game",
+      "silence",
+      "slow"
+    ],
+    "data_name": "Slowing Hex"
+  },
+  {
+    "name": "Disarming Hex",
+    "category": "active",
+    "effect": "Disarms the target for 4 seconds and reduces their bullet resist.",
+    "when_to_buy": "When the enemy team is running mostly weapon/gun-damage builds. Escaping or killing enemies who rely on weapon damage.",
+    "countered_heroes": [],
+    "notes": "",
+    "cost": 3200,
+    "item_slot_type": "spirit",
+    "item_tier": 3,
+    "shop_image_webp": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/spirit/disarming_hex.webp",
+    "tags": [
+      "anti-weapon",
+      "bullet damage",
+      "defensive",
+      "disarm"
+    ],
+    "data_name": "Disarming Hex"
+  },
+  {
+    "name": "Silence Wave",
+    "category": "active",
+    "effect": "Launches a projectile forward that suppresses (silences) everyone in its path.",
+    "when_to_buy": "Against ability-reliant heroes, especially those who depend on an ability at low health.",
+    "countered_heroes": [
+      "calico",
+      "geist",
+      "yamato"
+    ],
+    "notes": "",
+    "cost": 3200,
+    "item_slot_type": "spirit",
+    "item_tier": 3,
+    "shop_image_webp": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/spirit/silence_glyph.webp",
+    "tags": [
+      "anti-ability",
+      "aoe",
+      "silence",
+      "suppress"
+    ],
+    "data_name": "Silence Wave"
+  },
+  {
+    "name": "Focus Lens",
+    "category": "active",
+    "effect": "Passively increases fire rate by 16%. On use, silences a target; 30% of all damage dealt during the silence is applied as bonus damage when the silence ends.",
+    "when_to_buy": "As a point-and-click silence alternative to Silence Wave.",
+    "countered_heroes": [],
+    "notes": "",
+    "cost": 6400,
+    "item_slot_type": "spirit",
+    "item_tier": 4,
+    "shop_image_webp": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/spirit/focus_lens.webp",
+    "tags": [
+      "anti-ability",
+      "damage",
+      "fire rate",
+      "silence"
+    ],
+    "data_name": "Focus Lens"
+  },
+  {
+    "name": "Unstoppable",
+    "category": "active",
+    "effect": "An automatic Counter Spell that lasts 5.5 seconds, deflecting all crowd control during that window.",
+    "when_to_buy": "When you need prolonged CC immunity rather than single-instance parry protection.",
+    "countered_heroes": [],
+    "notes": "",
+    "cost": 6400,
+    "item_slot_type": "vitality",
+    "item_tier": 4,
+    "shop_image_webp": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/vitality/unstoppable.webp",
+    "tags": [
+      "anti-cc",
+      "cc immunity",
+      "crowd control",
+      "defensive",
+      "late game"
+    ],
+    "data_name": "Unstoppable"
+  },
+  {
+    "name": "Curse",
+    "category": "active",
+    "effect": "Silences, disarms, and prevents item usage on the target. Also interrupts channeled abilities.",
+    "when_to_buy": "Against fed (high-economy) enemy carries. Best single-target shutdown item in the game.",
+    "countered_heroes": [
+      "dynamo",
+      "mcginnis",
+      "victor"
+    ],
+    "notes": "",
+    "cost": 6400,
+    "item_slot_type": "spirit",
+    "item_tier": 4,
+    "shop_image_webp": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/spirit/curse.webp",
+    "tags": [
+      "anti-ability",
+      "anti-carry",
+      "disarm",
+      "interrupt",
+      "item prevent",
+      "shutdown",
+      "silence"
+    ],
+    "data_name": "Cursed Relic"
+  },
+  {
+    "name": "Debuff Remover",
+    "category": "active",
+    "effect": "Purges all non-ultimate negative effects currently applied to you. Upgraded version of Debuff Reducer.",
+    "when_to_buy": "Priority purchase against teams running multiple debuff-applying items or abilities (e.g., Slowing Hex, Knockdown).",
+    "countered_heroes": [],
+    "notes": "Cleanses all the active-item debuffs listed in this section.",
+    "cost": 3200,
+    "item_slot_type": "vitality",
+    "item_tier": 3,
+    "shop_image_webp": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/vitality/debuff_remover.webp",
+    "tags": [
+      "anti-cc",
+      "anti-debuff",
+      "cleanse",
+      "defensive",
+      "purge"
+    ],
+    "data_name": "Dispel Magic"
+  },
+  {
+    "name": "Healbane",
+    "category": "anti-heal",
+    "effect": "35% healing reduction. Heals you for 275 on kills.",
+    "when_to_buy": "Early game, in any lane where the opponent heals constantly. Works on all heroes since it procs from spirit damage.",
+    "countered_heroes": [
+      "abrams",
+      "calico",
+      "geist",
+      "kelvin",
+      "mcginnis",
+      "mirage",
+      "shiv",
+      "viscous",
+      "yamato"
+    ],
+    "notes": "",
+    "cost": 1600,
+    "item_slot_type": "vitality",
+    "item_tier": 2,
+    "shop_image_webp": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/vitality/healbane.webp",
+    "tags": [
+      "anti-heal",
+      "early game",
+      "heal reduction",
+      "spirit damage",
+      "sustain counter"
+    ],
+    "data_name": "Healbane"
+  },
+  {
+    "name": "Toxic Bullets",
+    "category": "anti-heal",
+    "effect": "30% healing reduction. Applies bleed damage that drains a percentage of the target's max health over time.",
+    "when_to_buy": "Against high-HP, beefy heroes. Although it has 5% less healing reduction than Healbane, the max-health bleed makes it superior into tanks.",
+    "countered_heroes": [
+      "abrams",
+      "calico",
+      "geist",
+      "kelvin",
+      "mcginnis",
+      "mirage",
+      "mo & krill",
+      "shiv",
+      "viscous",
+      "yamato"
+    ],
+    "notes": "",
+    "cost": 3200,
+    "item_slot_type": "weapon",
+    "item_tier": 3,
+    "shop_image_webp": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/weapon/toxic_bullets.webp",
+    "tags": [
+      "anti-heal",
+      "anti-tank",
+      "bleed",
+      "heal reduction",
+      "max health",
+      "tank buster"
+    ],
+    "data_name": "Toxic Bullets"
+  },
+  {
+    "name": "Inhibitor",
+    "category": "anti-heal",
+    "effect": "35% healing reduction. Reduces the target's outgoing damage by 35%, plus passive stat buffs.",
+    "when_to_buy": "When an enemy hero is dealing high damage while also healing significantly.",
+    "countered_heroes": [
+      "abrams",
+      "calico",
+      "geist",
+      "kelvin",
+      "mcginnis",
+      "mirage",
+      "shiv",
+      "viscous",
+      "yamato"
+    ],
+    "notes": "",
+    "cost": 6400,
+    "item_slot_type": "vitality",
+    "item_tier": 4,
+    "shop_image_webp": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/vitality/inhibitor.webp",
+    "tags": [
+      "anti-carry",
+      "anti-heal",
+      "damage reduction",
+      "heal reduction",
+      "late game",
+      "shutdown"
+    ],
+    "data_name": "Inhibitor"
+  },
+  {
+    "name": "Spirit Burn",
+    "category": "anti-heal",
+    "effect": "70% healing reduction. Deals significant spirit damage and applies a burn.",
+    "when_to_buy": "Against heroes that primarily build spirit damage, such as Mirage. Provides double the healing reduction of Healbane with substantial damage on top.",
+    "countered_heroes": [
+      "abrams",
+      "calico",
+      "geist",
+      "kelvin",
+      "mcginnis",
+      "mirage",
+      "shiv",
+      "viscous",
+      "yamato"
+    ],
+    "notes": "",
+    "cost": 6400,
+    "item_slot_type": "spirit",
+    "item_tier": 4,
+    "shop_image_webp": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/spirit/spirit_burn.webp",
+    "tags": [
+      "anti-heal",
+      "anti-spirit",
+      "burn",
+      "heal reduction",
+      "late game",
+      "spirit damage"
+    ],
+    "data_name": "Spirit Burn"
+  },
+  {
+    "name": "Crippling Headshot",
+    "category": "anti-heal",
+    "effect": "30% healing reduction. On headshot, reduces the target's bullet resist and spirit resist by 18% for 12 seconds.",
+    "when_to_buy": "Weapon-build carries looking to shut down a fed sustain hero, particularly Viscous. The resist shred amplifies your entire team's damage.",
+    "countered_heroes": [
+      "abrams",
+      "calico",
+      "geist",
+      "kelvin",
+      "mcginnis",
+      "mirage",
+      "shiv",
+      "viscous",
+      "yamato"
+    ],
+    "notes": "",
+    "cost": 6400,
+    "item_slot_type": "weapon",
+    "item_tier": 4,
+    "shop_image_webp": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/weapon/crippling_headshot.webp",
+    "tags": [
+      "anti-carry",
+      "anti-heal",
+      "heal reduction",
+      "late game",
+      "resist shred",
+      "weapon build"
+    ],
+    "data_name": "Crippling Headshot"
+  },
+  {
+    "name": "Decay",
+    "category": "bonus",
+    "effect": "Deals bleed damage based on the target's current health, plus a 40% healing reduction for 10 seconds.",
+    "when_to_buy": "",
+    "countered_heroes": [],
+    "notes": "Type: Point-and-click active",
+    "cost": 3200,
+    "item_slot_type": "spirit",
+    "item_tier": 3,
+    "shop_image_webp": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/spirit/decay.webp",
+    "tags": [
+      "anti-heal",
+      "bleed",
+      "current health",
+      "heal reduction"
+    ],
+    "data_name": "Decay"
+  },
+  {
+    "name": "Enduring Speed",
+    "category": "bonus",
+    "effect": "Grants movement speed and 30% slow resistance. Useful against heroes like Kelvin who apply frequent slows.",
+    "when_to_buy": "",
+    "countered_heroes": [
+      "kelvin"
+    ],
+    "notes": "Type: Cheap passive",
+    "cost": 1600,
+    "item_slot_type": "vitality",
+    "item_tier": 2,
+    "shop_image_webp": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/vitality/enduring_speed.webp",
+    "tags": [
+      "anti-slow",
+      "cheap",
+      "movement speed",
+      "slow resist"
+    ],
+    "data_name": "Enduring Speed"
+  },
+  {
+    "name": "Close Quarters",
+    "category": "bonus",
+    "effect": "Grants 20% melee resist and 20% bonus weapon damage at close range. Buy in melee-heavy lanes.",
+    "when_to_buy": "",
+    "countered_heroes": [],
+    "notes": "Type: Cheap passive",
+    "cost": 800,
+    "item_slot_type": "weapon",
+    "item_tier": 1,
+    "shop_image_webp": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/weapon/close_quarters.webp",
+    "tags": [
+      "anti-melee",
+      "cheap",
+      "close range",
+      "melee resist",
+      "weapon damage"
+    ],
+    "data_name": "Close Quarters"
+  },
+  {
+    "name": "Capacitor",
+    "category": "bonus",
+    "effect": "Removes non-ultimate buffs from the target. Strips away buffs like Seven's Power Surge, Page's shields, and Viscous's cubes.",
+    "when_to_buy": "",
+    "countered_heroes": [
+      "seven",
+      "viscous"
+    ],
+    "notes": "Type: Active",
+    "cost": 6400,
+    "item_slot_type": "weapon",
+    "item_tier": 4,
+    "shop_image_webp": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/weapon/capacitor.webp",
+    "tags": [
+      "anti-buff",
+      "buff removal",
+      "dispel",
+      "strip buffs"
+    ],
+    "data_name": "Capacitor"
+  },
+  {
+    "name": "Divine Barrier",
+    "category": "bonus",
+    "effect": "Can be used on teammates and cleanses ultimates such as Drifter's and Pocket's.",
+    "when_to_buy": "",
+    "countered_heroes": [
+      "drifter",
+      "pocket"
+    ],
+    "notes": "Type: Active (upgraded Debuff Remover)",
+    "cost": 6400,
+    "item_slot_type": "vitality",
+    "item_tier": 4,
+    "shop_image_webp": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/vitality/divine_barrier.webp",
+    "tags": [
+      "anti-debuff",
+      "cleanse",
+      "support",
+      "teammate",
+      "ultimate cleanse"
+    ],
+    "data_name": "Divine Barrier"
+  },
+  {
+    "name": "Suppressor",
+    "category": "bonus",
+    "effect": "Reduces enemy fire rate by 30%. Direct counter to weapon carries that depend on fire rate.",
+    "when_to_buy": "",
+    "countered_heroes": [
+      "haze",
+      "wraith"
+    ],
+    "notes": "Type: Passive aura",
+    "cost": 1600,
+    "item_slot_type": "spirit",
+    "item_tier": 2,
+    "shop_image_webp": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/spirit/suppressor.webp",
+    "tags": [
+      "anti-carry",
+      "anti-weapon",
+      "aura",
+      "fire rate reduction"
+    ],
+    "data_name": "Suppressor"
+  },
+  {
+    "name": "Return Fire",
+    "category": "bonus",
+    "effect": "Grants a chance to fire bullets back at the attacker. Effective against heroes like Haze.",
+    "when_to_buy": "",
+    "countered_heroes": [
+      "haze"
+    ],
+    "notes": "Type: Active | Builds into Metal Skin, which grants full bullet immunity for 5 seconds.",
+    "cost": 1600,
+    "item_slot_type": "vitality",
+    "item_tier": 2,
+    "shop_image_webp": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/vitality/return_fire.webp",
+    "tags": [
+      "anti-weapon",
+      "bullet reflect",
+      "defensive"
+    ],
+    "data_name": "Return Fire"
+  },
+  {
+    "name": "Rescue Beam",
+    "category": "bonus",
+    "effect": "Saves teammates from many of the threats described throughout this guide. Priority pickup for support-oriented builds.",
+    "when_to_buy": "",
+    "countered_heroes": [],
+    "notes": "Type: Active (support)",
+    "cost": 3200,
+    "item_slot_type": "vitality",
+    "item_tier": 3,
+    "shop_image_webp": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/vitality/rescue_beam.webp",
+    "tags": [
+      "defensive",
+      "save",
+      "support",
+      "teammate"
+    ],
+    "data_name": "Rescue Beam"
+  },
+  {
+    "name": "Battle Vest",
+    "category": "passive",
+    "effect": "Cheaper alternative to Bullet Resilience. Also provides fire rate. Suitable against gun-damage heroes like Haze.",
+    "when_to_buy": "Budget option against weapon/gun-damage heavy teams.",
+    "countered_heroes": [
+      "haze"
+    ],
+    "notes": "",
+    "cost": 1600,
+    "item_slot_type": "vitality",
+    "item_tier": 2,
+    "shop_image_webp": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/vitality/battle_vest.webp",
+    "tags": [],
+    "data_name": "Battle Vest"
+  },
+  {
+    "name": "Plated Armor",
+    "category": "passive",
+    "effect": "Double the price of Battle Vest, but deflects bullets and on-hit effects. Effective against heroes like Infernus who build up burn stacks.",
+    "when_to_buy": "When you need strong bullet protection and on-hit effect deflection.",
+    "countered_heroes": [
+      "infernus"
+    ],
+    "notes": "",
+    "cost": 6400,
+    "item_slot_type": "vitality",
+    "item_tier": 4,
+    "shop_image_webp": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/vitality/plated_armor.webp",
+    "tags": [
+      "anti-weapon",
+      "bullet deflect",
+      "defensive",
+      "late game",
+      "on-hit counter"
+    ],
+    "data_name": "Plated Armor"
+  },
+  {
+    "name": "Warp Stone",
+    "category": "active",
+    "effect": "Provides a quick directional teleport plus some bullet resist. Alternative escape option to Slowing Hex.",
+    "when_to_buy": "When your goal is to escape rather than lock down enemies.",
+    "countered_heroes": [],
+    "notes": "",
+    "cost": 3200,
+    "item_slot_type": "vitality",
+    "item_tier": 3,
+    "shop_image_webp": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/vitality/warp_stone.webp",
+    "tags": [
+      "bullet resist",
+      "escape",
+      "mobility",
+      "teleport"
+    ],
+    "data_name": "Warp Stone"
+  },
+  {
+    "name": "Metal Skin",
+    "category": "bonus",
+    "effect": "Upgraded Return Fire. Grants full bullet immunity for 5 seconds.",
+    "when_to_buy": "Against heavy weapon-damage teams. Upgrade path from Return Fire.",
+    "countered_heroes": [
+      "haze"
+    ],
+    "notes": "",
+    "cost": 3200,
+    "item_slot_type": "vitality",
+    "item_tier": 3,
+    "shop_image_webp": "https://assets-bucket.deadlock-api.com/assets-api-res/images/items/vitality/metal_skin.webp",
+    "tags": [
+      "anti-weapon",
+      "bullet immunity",
+      "defensive",
+      "late game"
+    ],
+    "data_name": "Metal Skin"
+  }
+]

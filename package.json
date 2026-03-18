@@ -1,0 +1,28 @@
+{
+  "name": "deadlock-counter-items",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "bun run --hot server.ts",
+    "build": "bun build ./index.html --outdir dist --minify",
+    "build:server": "bun build --compile --minify ./server.ts --outfile deadlock-counter-items",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "fuse.js": "^7.1.0",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.4",
+    "@types/bun": "latest",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "eslint": "^9.39.4",
+    "eslint-plugin-react-hooks": "^7.0.1",
+    "globals": "^17.4.0",
+    "typescript": "~5.9.3",
+    "typescript-eslint": "^8.56.1"
+  }
+}
